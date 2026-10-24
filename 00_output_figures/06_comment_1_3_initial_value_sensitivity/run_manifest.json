@@ -1,0 +1,57 @@
+{
+  "python": "3.8.8 (default, Apr 13 2021, 12:59:45) \n[Clang 10.0.0 ]",
+  "numpy": "1.22.4",
+  "scipy": "1.6.2",
+  "pandas": "1.2.4",
+  "matplotlib": "3.7.5",
+  "platform": "macOS-26.3.1-x86_64-arm-64bit",
+  "period": [
+    "2021-07-29 12:00:00",
+    "2021-08-12 00:00:00"
+  ],
+  "actual_data_period": [
+    "2021-07-29 12:00:00",
+    "2021-08-11 23:50:00"
+  ],
+  "window_hours": 3.0,
+  "stride_hours": 1.0,
+  "alpha_initials": [
+    1e-08,
+    1e-07,
+    5e-07,
+    1e-06,
+    5e-06,
+    1e-05
+  ],
+  "alpha_bounds": [
+    1e-08,
+    1e-05
+  ],
+  "alpha_prior": 1e-06,
+  "beta": 1000000000000.0,
+  "beta_units": "K^2 s^2 m^-4",
+  "n_scan": 16,
+  "max_iter": 60,
+  "gtol": 1e-08,
+  "ftol": 1e-12,
+  "delta_z_m": 0.05,
+  "delta_t_seconds": 600.0,
+  "theta": 0.5,
+  "n_windows": 321,
+  "n_solves": 3852,
+  "max_windows": null,
+  "report_alpha_relative_tolerance": 0.01,
+  "cost_atol": 1e-08,
+  "cost_rtol": 1e-06,
+  "sources": {
+    "Lupit_20210729_0812.csv": "81a3a55a5f022c9899114a4560517d3bd2d05dc9bbc24b36eafe7739c4ddb7f6",
+    "soil_inverse/__init__.py": "e3f7637bb74dd8136576a2cad167ab52c314f9668610aca379b4b6152cd1fb8a",
+    "soil_inverse/data.py": "70ea2b7cc96dddd8aa4c1faeb164699cfcb608f774070733800030275fa583c1",
+    "soil_inverse/forward.py": "12be587c1ec24f9d9be96b6aedfa1c2a5e62b01267032468456944e63b17f308",
+    "soil_inverse/gradients.py": "8493fd66d91c658ddb25117665741d56d72c7da94e05c390104b2b5672a936c3",
+    "soil_inverse/objective.py": "e169f04eb7e88cef7acaae6442cc57d9498c6a0b8e144850342329f6fe0c55f1",
+    "soil_inverse/optimizers.py": "8529eaeb33bc7067fb90fbe5669ceedce972098f5efa2871387c57203911df34",
+    "soil_inverse/timevarying.py": "25286d191cea2f8902cde5ea74ca2f42ff56dcd6c6774a14b990578f3f185fd4",
+    "soil_inverse/windowing.py": "7c0c29edac66ecaf488b217ef08c2907ba363811c061148a5f94b91c185152ad"
+  }
+}

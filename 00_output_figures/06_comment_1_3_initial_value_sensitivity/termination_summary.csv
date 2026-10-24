@@ -1,0 +1,6 @@
+mode,success,message,n_solves
+A,False,Not exposed by original solver; success refers to local optimizer,78
+A,True,Not exposed by original solver; success refers to local optimizer,1848
+B,False,ABNORMAL_TERMINATION_IN_LNSRCH,65
+B,True,CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL,1566
+B,True,CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH,295

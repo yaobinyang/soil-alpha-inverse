@@ -1,0 +1,2 @@
+correlation_alpha_true_recovered,median_relative_error_percent,mean_relative_error_percent,rmse_alpha_m2_s,rmse_temperature_degC,noise_sigma_degC,cost,cost_data,cost_reg,n_iter,n_grad_eval,success,synthetic_hours,alpha_period_hours,n_alpha_cycles,control_hours,beta_smooth,beta_prior
+0.9983956813967951,0.6227372186631805,1.2240882593427609,1.3489717631163081e-08,0.005702566410663752,0.004108464285987849,0.17352097426476498,0.01876361513645359,0.1547573591283114,48,51,True,192.0,48.0,4,3.0,1.0,0.1
